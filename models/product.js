@@ -23,5 +23,6 @@ const Product = database.define("products", {
 });
 
 Product.sync();
+database.sync();
 
 module.exports = Product;
